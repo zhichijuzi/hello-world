@@ -1,0 +1,4 @@
+ //chaxun
+SELECT *  FROM sys_month  a LEFT JOIN hse_scfy_scfy  b ON a.`month`= b.`month`
+
+WHERE `year`='2018'
